@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/WOW-master/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-info">Click the button to change the text</h1>
+        <button class="btn btn-dark" onclick="textChange()">Text change</button>
+        <h2 id="tc">Lorem ipsum dolor sit amet.</h2>
+        <hr>
+
+        <h1 class="text-info">Click the button to shoe the date</h1>
+        <button class="btn btn-dark" onclick="showDate()">Show date</button>
+        <h2 id="sd">Date</h2>
+        <hr>
+
+        <h1 class="text-info">Click the button to on/off the bulb</h1>
+        <button onclick="bulbOn()" class="btn btn-primary">On</button>
+        <button onclick="bulbOff()" class="btn btn-danger">Off</button>
+        <img id="img" src="images/off.gif" alt="">
+        <hr>
+
+        <h1 class="text-info">Click the button to change the color</h1>
+        <button class="btn btn-dark" onclick="colorchange()">Color Red</button>
+        <button class="btn btn-primary" onclick="colorprimary()">Color Green</button>
+        <h2 id="cc">Bangladesh</h2>
+        <hr>
+
+        <h1 class="text-info">Click the button to show/hide the text</h1>
+        <button onclick="textHide()" class="btn btn-primary">Hide</button>
+        <button onclick="textShow()" class="btn btn-danger">Show</button>
+        <h2 id="sh">Lorem ipsum dolor sit amet.</h2>
+        <hr>
+        <button onclick="cName()" class="btn btn-primary">Calling by class</button>
+        <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+        <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+        <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+        <h2 class="h2">Lorem ipsum dolor sit amet.</h2>
+        <hr>
+
+        <h1 class="text-info">Click the button to calculate the values</h1>
+        <button class="btn btn-danger" onclick="dataAddition()">Sum</button>
+        <h2 id="sum">Output</h2>
+    
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                   <div class="text-center">
+                    <h2 class="counter">1,234,567.00</h2>
+                   </div>    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <section class="wow slideOutLeft box bg-danger" data-wow-duration="1s" data-wow-delay=".5s">
+            
+        </section>
+        <section class="wow slideInDown box bg-dark" data-wow-duration="1s" data-wow-delay=".5s">
+        
+        </section>
+        <section class="wow slideInDown box bg-danger" data-wow-duration="1s" data-wow-delay=".5s">
+        
+        </section>
+    </div>
+   
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/WOW-master/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js">
+    </script>
+    <script src="vendor/Counter-Up/jquery.counterup.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
